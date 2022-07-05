@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  showContactForm = false;
+  toggleContactForm(){
+    this.showContactForm = !this.showContactForm;
+  }
+
   title = 'avenmore';
 }

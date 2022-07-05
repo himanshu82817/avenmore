@@ -3,14 +3,55 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { BoardOfDirectorsComponent } from './components/board-of-directors/board-of-directors.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { CorporateGovernanceComponent } from './components/corporate-governance/corporate-governance.component';
+import { ExitedPortfolioComponent } from './components/exited-portfolio/exited-portfolio.component';
+import { FinancialsComponent } from './components/financials/financials.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ShareHoldersComponent } from './components/share-holders/share-holders.component';
+import { StartegiesDetailsComponent } from './components/startegies-details/startegies-details.component';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatDialogModule } from '@angular/material/dialog';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatTableModule} from '@angular/material/table';
+import { CookiePolicyComponent } from './components/cookie-policy/cookie-policy.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    NavBarComponent,
+    FooterComponent,
+    AboutUsComponent,
+    BoardOfDirectorsComponent,
+    ContactUsComponent,
+    CorporateGovernanceComponent,
+    ExitedPortfolioComponent,
+    FinancialsComponent,
+    PortfolioComponent,
+    ShareHoldersComponent,
+    StartegiesDetailsComponent,
+    CookiePolicyComponent,
+    PrivacyPolicyComponent,
+    DisclaimerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatExpansionModule,
+    NgbModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

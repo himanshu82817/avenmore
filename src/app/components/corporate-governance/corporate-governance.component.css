@@ -1,0 +1,22 @@
+main{
+    width: 100%;
+    padding:100px 5%;
+}
+
+.table{
+    width: 100%;
+    overflow-x: auto;
+}
+table{
+    width:100%;
+}
+td{
+    /* text-align: center; */
+    /* width: max-content; */
+    font-size: .8rem;
+}
+th{
+    font-size: .8rem;
+    /* width:min-content; */
+    /* text-align: center; */
+}

@@ -1,0 +1,36 @@
+main{
+    width: 100%;
+    padding:50px 5%;
+}
+
+
+.vision{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+.vision img{
+    width: 40%;
+
+}
+.vision p{
+    width: 50%;
+    color: #757575;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    word-spacing: 4px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+@media (max-width:900px) {
+    .vision img{
+        width: 100%;
+    }
+    .vision p{
+        width: 100%;
+        margin-top: 3%;
+    }
+}
+

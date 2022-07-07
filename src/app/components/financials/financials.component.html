@@ -105,7 +105,9 @@
         <mat-panel-description>
         </mat-panel-description>
       </mat-expansion-panel-header>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <div style="margin-top:20px ;" *ngFor="let item of files" >
+        <a *ngFor="let file of item" [href]="file.path"><i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
+      </div>
     </mat-expansion-panel>
     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
@@ -125,7 +127,9 @@
         <mat-panel-description>
         </mat-panel-description>
       </mat-expansion-panel-header>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <div style="margin-top:20px ;" *ngFor="let item of files2" >
+        <a *ngFor="let file of item" [href]="file.path"><i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
+      </div>
     </mat-expansion-panel>
   </mat-accordion>
 </main>

@@ -96,7 +96,20 @@
             <mat-panel-description>
             </mat-panel-description>
           </mat-expansion-panel-header>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h6>Other Corporate Actions / Listing Compliances</h6>
+          <a href="assets/pdf/shareholders/ACMS_WEBSITE_06_07_2017.pdf" target="/"><i class="fas fa-file-pdf"></i> Intimation To Exchange 06-Jul-2017</a> <br>
+          <a href="assets/pdf/shareholders/ACMS_WEBSITE_27_06_2017.pdf" target="/"><i class="fas fa-file-pdf"></i> Intimation To Exchange 27-Jun-2017</a> <br>
+          <a href="assets/pdf/shareholders/outcome_amcs.pdf" target="/"><i class="fas fa-file-pdf"></i> Outcome of Board Meeting Q2 16-17</a> <br>
+          <a href="assets/pdf/shareholders/ACMS_cfo_Reg_2016.pdf" target="/"><i class="fas fa-file-pdf"></i> Resignation of CFO</a> <br>
+          <a href="assets/pdf/shareholders/outcome_of_board_meeting_Q4_1516.pdf" target="/"><i class="fas fa-file-pdf"></i> Outcome of Board Meeting Q4 15-16</a>
+          <h6>Board Meetings</h6>
+
+          <div *ngFor="let item of files2">
+            <p>{{item.title}}</p>
+            <a [href]="file.path" target="/" *ngFor="let file of item.files"> <i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
+          </div>
+
+
         </mat-expansion-panel>
         <mat-expansion-panel (opened)="panelOpenState = true"
         (closed)="panelOpenState = false">

@@ -158,6 +158,399 @@ files = [
   },
 ]
 
+files2 = [
+  {
+    title:'2016-17 (Q1)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/intimation_website_ACMS.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/website_ACMs_publish.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting',
+        path:'assets/pdf/shareholders/website_ACMs_outcome.pdf'
+      },
+    ]
+  },
+  {
+    title:'2016-17 (Q2)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/avonmoe _Website_1.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/ACMS PUBLISHED NOTICE_NOV 2016.pdf'
+      },
+    ]
+  },
+  {
+    title:'2016-17 (Q3)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/acms_Intimation_01_02_2017.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/acms_Intimation publish_20170202153556.pdf'
+      },
+    ]
+  },
+  {
+    title:'2016-17 (Q4)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/website_ACMs_May17.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting Q4 16-17',
+        path:'assets/pdf/shareholders/outcome_website_Avomnore_Mar_17.pdf'
+      },
+    ]
+  },
+  {
+    title:'2017-18 (Q1)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/notice_Avonmore_BSE_Aug17.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/published_ACMS_Aug17.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting Q1 17-18',
+        path:'assets/pdf/shareholders/outcome of Boardmeeting_avonmore_Jun117.pdf'
+      },
+    ]
+  },
+  {
+    title:'2017-18 (Q2)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting Nov 2017',
+        path:'assets/pdf/shareholders/intimation_boardmeetingNov17.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication Nov 2017',
+        path:'assets/pdf/shareholders/publication_boardmeetingNov17.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting Nov 17-18',
+        path:'assets/pdf/shareholders/Outcome_2017.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Dec 2017',
+        path:'assets/pdf/shareholders/intimation_ACMSDec17.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication Dec 2017',
+        path:'assets/pdf/shareholders/BSE_NewspaperPublication_Dec2017.pdf'
+      },
+    ]
+  },
+  {
+    title:'2018-19 (Q1)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting 2018',
+        path:'assets/pdf/shareholders/Intimation of board meeting1819.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication 2018',
+        path:'assets/pdf/shareholders/bse_publication_sw1819.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting',
+        path:'assets/pdf/shareholders/outcome of board meeting1819.pdf'
+      },
+    ]
+  },
+  {
+    title:'2018-19 (Q2)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting 2018',
+        path:'assets/pdf/shareholders/notice_avonmoresep18.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication 2018',
+        path:'assets/pdf/shareholders/publish_Avonmoresep18.pdf'
+      },
+    ]
+  },
+  {
+    title:'2018-19 (Q3)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting 2019',
+        path:'assets/pdf/shareholders/acms_BSE.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication 2019',
+        path:'assets/pdf/shareholders/acms_Publish.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting',
+        path:'assets/pdf/shareholders/outcome_avonmore.pdf'
+      },
+    ]
+  },
+  {
+    title:'2018-19 (Q4)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting 2019',
+        path:'assets/pdf/shareholders/ACMS_BSE_intimation.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication 2019',
+        path:'assets/pdf/shareholders/ACMS_publish_Q4.pdf'
+      },
+    ]
+  },
+  {
+    title:'2019-20 (Q1)',
+    files:[
+      {
+        name:'Outcome Of Board Meeting Dated 21 August 2019',
+        path:'assets/pdf/shareholders/outcome of board meeting dated 21.08.2019.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/intimation of board meeting.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication 2019',
+        path:'assets/pdf/shareholders/ACMS_publish_Q1_6sep.pdf'
+      },
+      {
+        name:'Outcome Of Board Meeting Dated 14 September 2019',
+        path:'assets/pdf/shareholders/outcome_sw.pdf'
+      },
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/ACMS_BSE_74.pdf'
+      },
+      {
+        name:'Intimation of implementation of IND-AS',
+        path:'assets/pdf/shareholders/ACMS_BSE_INDAS.pdf'
+      },
+    ]
+  },
+  {
+    title:'2019-20 (Q2)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/acms_74_5_sep19.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting 2019',
+        path:'assets/pdf/shareholders/intimation_dec19_BSE.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication 2019',
+        path:'assets/pdf/shareholders/dec19_acms_publish.pdf'
+      },
+      {
+        name:'Outcome Of Board Meeting Dated 14 December 2019',
+        path:'assets/pdf/shareholders/outcome_avonmore_dec19.pdf'
+      },
+    ]
+  },
+  {
+    title:'2019-20 (Q3)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/acms_74_jan20.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/BMnotice_BSE_jan2020.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/publish_BSE_Acms_jan2020.pdf'
+      },
+    ]
+  },
+  {
+    title:'2019-20 (Q4)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/74(5) 31.03.2020.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/BM_Notice_ACMS_30.07.2020.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/Newspaper Publication.pdf'
+      },
+      {
+        name:'Outcome Of Board Meeting',
+        path:'assets/pdf/shareholders/Outcome_ACMS_Q4.pdf'
+      },
+    ]
+  },
+  {
+    title:'2020-21 (Q1)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/74(5)30.06.2020.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/intimationBM_Acms.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/publication_intimation_Acms.pdf'
+      },
+    ]
+  },
+  {
+    title:'2020-21 (Q2)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/ACMS_74-q3.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/BMavonmore_q2.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/acms_publication_q2.pdf'
+      },
+      {
+        name:'Outcome Of Board Meeting',
+        path:'assets/pdf/shareholders/outcome_avonmore_q2.pdf'
+      },
+    ]
+  },
+  {
+    title:'2020-21 (Q3)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/AVONMORE_74_q2.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/Intimation_ACMS-Q3.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/publication_ACMS_Q3.pdf'
+      },
+      {
+        name:'Outcome Of Board Meeting',
+        path:'assets/pdf/shareholders/outcome_Acms_q3.pdf'
+      },
+    ]
+  },
+  {
+    title:'2020-21 (Q4)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/bse_intimation.pdf'
+      },
+      {
+        name:'Outcome Of Board Meeting',
+        path:'assets/pdf/shareholders/outcome of boardmeeting.pdf'
+      },
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/acms_74_q4.pdf'
+      },
+    ]
+  },
+  {
+    title:'2021-22 (Q1)',
+    files:[
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/BM_Notice_aug2021.pdf'
+      },
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/acms_74june2021.pdf'
+      },
+    ]
+  },
+  {
+    title:'2021-22 (Q2)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/acms_74_Q2.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/BM_ACMS_sep2021.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting',
+        path:'assets/pdf/shareholders/outcome_Sep21_Acms.pdf'
+      },
+    ]
+  },
+  {
+    title:'2021-22 (Q3)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/74_ACMS_dec21.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting Publication',
+        path:'assets/pdf/shareholders/intimation_BM_acms_feb22.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting',
+        path:'assets/pdf/shareholders/outcome_feb22_Acms.pdf'
+      },
+    ]
+  },
+  {
+    title:'2021-22 (Q4)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/acms_74_MARCH22.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/intimation_BM_may2022.pdf'
+      },
+      {
+        name:'Intimation Of Postponement Of Board Meeting',
+        path:'assets/pdf/shareholders/intimationofboardmeeting_ACMS.pdf'
+      },
+      {
+        name:'Outcome of Board Meeting',
+        path:'assets/pdf/shareholders/outcome_acms_2022.pdf'
+      },
+    ]
+  },
+]
+
 files3 = [
   {
     title:'Financial Year 2021-22',

@@ -18,6 +18,8 @@ import { ShareHoldersComponent } from './components/share-holders/share-holders.
 import { StartegiesDetailsComponent } from './components/startegies-details/startegies-details.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatDialogModule } from '@angular/material/dialog';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatTableModule} from '@angular/material/table';
 import { CookiePolicyComponent } from './components/cookie-policy/cookie-policy.component';
@@ -52,6 +54,7 @@ import { DisclaimerComponent } from './components/disclaimer/disclaimer.componen
     MatExpansionModule,
     NgbModule,
     MatTableModule,
+    MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

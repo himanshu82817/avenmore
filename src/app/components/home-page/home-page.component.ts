@@ -35,7 +35,7 @@ export class HomePageComponent implements OnInit {
 
   openDilog(i){
 
-    this.dilog.open(StartegiesDetailsComponent, {data:i})
+    this.dilog.open(StartegiesDetailsComponent, {data:i,height:'90%',})
   }
 
 }

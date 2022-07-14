@@ -10,7 +10,9 @@ main{
     background-color: rgba(255, 255, 255, 0);
     overflow:unset;
 }
-
+.active{
+    color: #0062FF;
+}
 .logo{
     width: 10%;
     cursor: pointer;

@@ -11,3 +11,6 @@ if (environment.production) {
 // AOS.init();
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+setTimeout(() => {
+  document.getElementById('process').style.display = 'none'
+},2000);

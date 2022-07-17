@@ -6,17 +6,15 @@ main{
 .table{
     width: 100%;
     overflow-x: auto;
+    text-align: center;
 }
 table{
     width:100%;
 }
-td{
-    /* text-align: center; */
-    /* width: max-content; */
-    font-size: .8rem;
+th.mat-header-cell{
+    text-align: center;
 }
-th{
+td ,th {
     font-size: .8rem;
-    /* width:min-content; */
-    /* text-align: center; */
+    border:  1px solid rgb(162, 162, 162);
 }

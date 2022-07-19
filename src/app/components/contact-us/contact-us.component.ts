@@ -27,7 +27,7 @@ export class ContactUsComponent implements OnInit {
     if(this.formgroup.valid){
       console.log(this.formgroup.value)
       emailjs.send("service_79m3toe","template_eovv09e",this.formgroup.value, 'kGefhI__XJsKzLKT9').then((result: EmailJSResponseStatus) => {
-        alert(result.text);
+        alert('Details Submitted Successfully');
       }, (error) => {
         alert(error.text);
       });;

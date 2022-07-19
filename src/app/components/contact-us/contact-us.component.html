@@ -3,10 +3,23 @@
     <img data-aos-delay="100" data-aos-duration="1500" data-aos="fade-right" src="assets/images/contact.jpg" alt="">
     <div data-aos-delay="100" data-aos-duration="1500" data-aos="fade-left" class="form">
         <p>Please fill out the form below and we will get back to you as soon as possible.</p>
-        <form action="">
-            <input type="text" placeholder="Name" >
-            <input type="email" name="" id="" placeholder="email" >
-            <textarea placeholder="Message" name="" id="" cols="30" rows="6"></textarea>
+        <form [formGroup]="formgroup" (ngSubmit)="submit()" action="">
+            <mat-form-field appearance="outline" >
+                <mat-label>Enter Your Name</mat-label>
+                <input matInput formControlName="from_name" type="text" placeholder="" >
+                <mat-error>please enter your name</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" >
+                <mat-label>Enter Your Email</mat-label>
+                <input matInput formControlName="user_email" type="email" name="" id="" placeholder="Ex. pat@example.com" >
+                <mat-error>please enter valid email</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" >
+                <mat-label>Enter Your Phone</mat-label>
+                <input matInput formControlName="user_phone" type="number" placeholder="Ex. 9456325867" >
+                <mat-error>please enter valid mobile number</mat-error>
+            </mat-form-field>
+            <textarea formControlName="message" placeholder="Message" name="" id="" cols="30" rows="6"></textarea>
             <button>Submit</button>
         </form>
     </div>

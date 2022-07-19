@@ -25,7 +25,8 @@ import {MatTableModule} from '@angular/material/table';
 import { CookiePolicyComponent } from './components/cookie-policy/cookie-policy.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,9 @@ import { DisclaimerComponent } from './components/disclaimer/disclaimer.componen
     NgbModule,
     MatTableModule,
     MatProgressSpinnerModule,
+    ReactiveFormsModule,
+    MatInputModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

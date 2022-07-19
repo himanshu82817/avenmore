@@ -19,10 +19,10 @@ const routes: Routes = [
     path:'',
     component:HomePageComponent
   },
-  {
-    path:'about-us',
-    component:AboutUsComponent
-  },
+  // {
+  //   path:'about-us',
+  //   component:AboutUsComponent
+  // },
   {
     path:'corporate-governance',
     component:CorporateGovernanceComponent,

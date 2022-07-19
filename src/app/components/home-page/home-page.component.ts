@@ -21,12 +21,12 @@ export class HomePageComponent implements OnInit {
   slides = [
     {
       name:'Avonmore Capital & Management Services Limited',
-      about:'Formerly Almondz Capital & Management Services Ltd.',
+      about:'Having “Nation First” motto, lets help create businesses in the National Interest',
       img:'assets/images/slide1.jpg'
     },
     {
       name:'Avonmore Capital & Management Services Limited',
-      about:'Formerly Almondz Capital & Management Services Ltd.',
+      about:'Helping businesses to grow to it\'s full potential',
       img:'assets/images/slide2.jpg'
     },
   ]

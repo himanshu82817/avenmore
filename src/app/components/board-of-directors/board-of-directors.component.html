@@ -2,7 +2,7 @@
     <h2 class="heading" >Board of directors</h2>
     <div class="bod">
         <div *ngFor="let item of bodCards"  class="bodCard">
-            <i class="fas fa-user"></i>
+            <img [src]="item.img" alt="">
             <div class="about">
                 <p>{{item.name}}</p>
                 <p>{{item.about}}</p>

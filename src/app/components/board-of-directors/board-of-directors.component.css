@@ -17,7 +17,7 @@ main{
     box-shadow: 2px 2px 6px rgb(227, 227, 227);
     margin: 1% 0;
     border-radius: 5px;
-    padding: 2% 5%;
+    padding: 1% ;
 }
 .about{
     margin-left: 20px;
@@ -25,10 +25,17 @@ main{
 .about p:nth-child(1){
     font-size: 1.5rem;
 }
-.bodCard img{
-    width: 25%;
-    aspect-ratio: 1/0.9;
-    border: .1rem solid #000000;
+.img{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+    padding: 1% 0;
+}
+img{
+    width: 80%;
+    aspect-ratio: 1/0.7;
     border-radius: 50%;
 }
 

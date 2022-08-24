@@ -14,6 +14,15 @@ export class ShareHoldersComponent implements OnInit {
 
 files = [
   {
+    title:'Financial Year 2022-23',
+    files:[
+      {
+        name:'Shareholding Pattern Q1 (2022-23)',
+        path:'assets/pdf/shareholders/shp_june2022.pdf'
+      }
+    ]
+  },
+  {
     title:'Financial Year 2021-22',
     files:[
       {
@@ -549,6 +558,19 @@ files2 = [
       },
     ]
   },
+  {
+    title:'2022-23 (Q1)',
+    files:[
+      {
+        name:'Certificate Under Regulation 74(5) of SEBI (Depository and Participants) Regulations, 2018',
+        path:'assets/pdf/shareholders/74_acms_june2022.pdf'
+      },
+      {
+        name:'Intimation Of Board Meeting',
+        path:'assets/pdf/shareholders/intimation_BM_AUG2022.pdf'
+      }
+    ]
+  }
 ]
 
 files3 = [
@@ -653,6 +675,15 @@ files3 = [
 ]
 
 files4 = [
+  {
+    title:'Financial Year 2022-23',
+    files:[
+      {
+        name:'Q1 - Reconciliation of Share Capital Audit Report',
+        path:'assets/pdf/shareholders/sar_acms_june2022.pdf'
+      }
+    ]
+  },
   {
     title:'Financial Year 2021-22',
     files:[
@@ -795,6 +826,15 @@ files4 = [
 ]
 
 files5 = [
+  {
+    title:'Financial Year 2022-23',
+    files:[
+      {
+        name:'Q1 - Investor Complaint',
+        path:'assets/pdf/shareholders/IC_june2022.pdf'
+      }
+    ]
+  },
   {
     title:'Financial Year 2021-22',
     files:[

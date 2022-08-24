@@ -30,6 +30,15 @@ export class CorporateGovernanceComponent implements OnInit {
 
   files = [
     {
+      title:'Financial Year 2022-23',
+      files:[
+        {
+          name:' Q1 (2022-23)',
+          path:'assets/pdf/bod/cg_june2022.pdf'
+        }
+      ]
+    },
+    {
       title:'Financial Year 2021-22',
       files:[
         {

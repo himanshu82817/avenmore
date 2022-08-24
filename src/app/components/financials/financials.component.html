@@ -25,6 +25,7 @@
         2019-20</a><br>
       <a href="assets/pdf/financials/Avonmore Capital Notice 2017.pdf" target="/"><i class="fas fa-file-pdf"></i> Notice
         2020-21</a><br>
+      <a href="assets/pdf/financials/Avonmore Capital Notice 2017.pdf" target="/"><i class="fas fa-file-pdf"></i>Notice 2021-22(Avonmore_Notice_202122.pdf)</a><br>
 
 
     </mat-expansion-panel>
@@ -50,6 +51,9 @@
         Report - 2019-20</a><br>
       <a href="assets/pdf/financials/Annual_Report_ACMS_2021.pdf" target="/"><i class="fas fa-file-pdf"></i> Annual
         Report - 2020-21</a><br>
+      <a href="assets/pdf/financials/Annual_Report_ACMS_2021.pdf" target="/"><i class="fas fa-file-pdf"></i>
+        Annual Report 2021-22(Annual_Report_ACMS_2021.pdf)</a><br>
+
 
     </mat-expansion-panel>
     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
@@ -87,6 +91,16 @@
     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
         <mat-panel-title>
+          MGT-9 (2021-22)( MGT-9_march2022.pdf)
+        </mat-panel-title>
+        <mat-panel-description>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <a href="assets/pdf/financials/MGT-9_march2021.pdf" target="/"><i class="fas fa-file-pdf"></i>MGT-9(2020-21)</a><br>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
           Attendance / Ballot Form
         </mat-panel-title>
         <mat-panel-description>
@@ -106,7 +120,7 @@
         </mat-panel-description>
       </mat-expansion-panel-header>
       <div style="margin-top:20px ;" *ngFor="let item of files" >
-        <a *ngFor="let file of item" [href]="file.path"><i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
+        <a target="/" *ngFor="let file of item" [href]="file.path"><i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
       </div>
     </mat-expansion-panel>
     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
@@ -128,7 +142,7 @@
         </mat-panel-description>
       </mat-expansion-panel-header>
       <div style="margin-top:20px ;" *ngFor="let item of files2" >
-        <a *ngFor="let file of item" [href]="file.path"><i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
+        <a target="/"  *ngFor="let file of item" [href]="file.path"><i class="fas fa-file-pdf"></i>{{file.name}} <br></a>
       </div>
     </mat-expansion-panel>
   </mat-accordion>

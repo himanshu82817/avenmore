@@ -4,7 +4,7 @@ export const Portfolio = {
             sector:'Insurance/Re-Insurance Broking',
             img:'assets/images/Insurance and broking.jpg',
             about:[
-                'Aonmore promoted Almondz Insurance Brokers Private Limited, in the year 2004.Almondz Insurance has grown to being a leading Indian composite insurance broker with over 300 associates in nine offices country-wide serving clients with a broad range of products and services across diversified industries and segments.',
+                'Avonmore promoted Almondz Insurance Brokers Private Limited, in the year 2004.Almondz Insurance has grown to being a leading Indian composite insurance broker with over 300 associates in nine offices country-wide serving clients with a broad range of products and services across diversified industries and segments.',
                 'Avonmore partly exited from its stake in the year 2015 when Willis Towers Watson a NASDAQ Listed, leading global advisory firm acquired 49% stake in it and company’s name also got changed to Willis Towers Watson India Insurance Brokers Private Ltd. Willis Towers Watson India Insurance Brokers Private Ltd, has combined its global network and expertise with Almondz’s skilled team and wealth of experience in India. Avonmore decided to take final exit in the year 2022 by selling its entire remaining stake at around 20M$.'
             ]
         }

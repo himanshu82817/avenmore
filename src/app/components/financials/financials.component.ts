@@ -17,6 +17,14 @@ export class FinancialsComponent implements OnInit {
   files = [
     [
       {
+        name:'Unaudited Financial Results for Quarter Ended 30th June 2022 as published',
+        path:'assets/pdf/financials/Newspaper 2022.pdf'
+      },
+      {
+        name:'Unaudited Financial Results for Quarter Ended 30th June 2022',
+        path:'assets/pdf/financials/Result June 2022.pdf'
+      },
+      {
         name:'Audited Financial Results for the Quarter & Year Ended 31 March 2022 as published',
         path:'assets/pdf/financials/publication_march2022_Acms.pdf'
       },

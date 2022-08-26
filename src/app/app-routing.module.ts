@@ -10,6 +10,7 @@ import { DisclaimerComponent } from './components/disclaimer/disclaimer.componen
 import { ExitedPortfolioComponent } from './components/exited-portfolio/exited-portfolio.component';
 import { FinancialsComponent } from './components/financials/financials.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { ShareHoldersComponent } from './components/share-holders/share-holders.component';
@@ -19,10 +20,6 @@ const routes: Routes = [
     path:'',
     component:HomePageComponent
   },
-  // {
-  //   path:'about-us',
-  //   component:AboutUsComponent
-  // },
   {
     path:'corporate-governance',
     component:CorporateGovernanceComponent,
@@ -62,6 +59,11 @@ const routes: Routes = [
   {
     path:'disclaimer',
     component:DisclaimerComponent
+  },
+  {
+    path:'**',
+    component:NotFoundComponent,
+    pathMatch:'full'
   },
 ];
 

@@ -1,4 +1,5 @@
 import { AfterViewInit, Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,11 +9,24 @@ import { AfterViewInit, Component } from '@angular/core';
 })
 export class AppComponent  {
   processing = true
-  constructor(){
+  constructor(
+    private router:Router
+  ){
     setTimeout(() => {
       this.processing = false
     },2000);
+
+    this.router.config.forEach(x => {
+      this.routes.push(`/${x.path}`)
+    } )
+    console.log(this.router.url)
+    this.router.events.subscribe(x=> {
+      this.routes.includes(`${this.router.url}`)?this.show = true : this.show = false
+    })
   }
+
+  routes = []
+  show = true
 
   
 

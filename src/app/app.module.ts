@@ -27,6 +27,7 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
 import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {MatInputModule} from '@angular/material/input';
     StartegiesDetailsComponent,
     CookiePolicyComponent,
     PrivacyPolicyComponent,
-    DisclaimerComponent
+    DisclaimerComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

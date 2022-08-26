@@ -12,8 +12,16 @@ export class NavBarComponent implements OnInit {
 
   ngOnInit(): void {
     window.addEventListener('scroll', this.scrollEvent, true);
+    this.router.config.forEach(x => {
+      this.routes.push(`/${x.path}`)
+    } )
+    console.log(this.router.url)
+    this.router.events.subscribe(x=> {
+      this.routes.includes(`${this.router.url}`)?this.showHeader = true : this.showHeader = false
+    })
   }
-
+  showHeader = true
+  routes = []
   scrollEvent = (event: any): void => {
     const n = event.srcElement.scrollingElement.scrollTop;
     if(n>80){

@@ -1,4 +1,4 @@
-<main id="main">
+<main *ngIf="showHeader" id="main">
     <img [routerLink]="['']" src="assets/images/logo.jpg" alt="Avonmore" class="logo">
 
     <nav [ngClass]="{'dark':router.url=='/' }" >

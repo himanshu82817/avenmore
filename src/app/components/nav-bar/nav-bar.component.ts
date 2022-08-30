@@ -26,7 +26,7 @@ export class NavBarComponent implements OnInit {
     const n = event.srcElement.scrollingElement.scrollTop;
     if(n>80){
       // console.log('more',n)
-      document.getElementById('main').style.backgroundColor = this.router.url=='/'? '#0e274f':'white'
+      document.getElementById('main').style.backgroundColor = this.router.url=='//'? '#0e274f':'white'
       document.getElementById('main').style.boxShadow = '2px 2px 4px rgba(133, 133, 133, 0.401)'
       document.getElementById('main').style.padding = '.5% 5%'
       

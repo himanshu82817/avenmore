@@ -1,7 +1,7 @@
 <main *ngIf="showHeader" id="main">
     <img [routerLink]="['']" src="assets/images/logo.jpg" alt="Avonmore" class="logo">
 
-    <nav [ngClass]="{'dark':router.url=='/' }" >
+    <nav [ngClass]="{'dark':router.url=='//' }" >
         <div class="links"  [routerLink]="['']" >Home</div>
         <div class="link-holder">About us 
             <div class="dropdown">

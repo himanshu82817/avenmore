@@ -1,13 +1,10 @@
 main{
     width: 100%;
-    background-color: #162650;
+    background-color: #EEF0F7;
     padding:2% 5% 0 5%;
 }
 .logo{
-    background-color: white;
-    padding:0 10px;
-    border-radius: 10px;
-    width: 40%;
+    width: 45%;
 }
 p{
     font-size:.9rem;
@@ -28,7 +25,7 @@ section{
     margin-left: 20px;
 }
 .column{
-    color: white;
+    color: rgb(69, 69, 69);
 }
 .links p{
     cursor: pointer;
@@ -47,10 +44,10 @@ section{
     justify-content: space-between;
 }
 hr{
-    color: white;
+    color: rgb(69, 69, 69);
 }
 .tc p{
-    color: white;
+    color: rgb(69, 69, 69);
     font-size: 13px;
     cursor: pointer;
 }
